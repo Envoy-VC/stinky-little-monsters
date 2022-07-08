@@ -14,8 +14,8 @@ const Mint = () => {
   const { Moralis, account } = useMoralis();
   const contractProcessor = useWeb3ExecuteFunction();
   const dispatch = useNotification();
-  const contractAddress = "0xc4F7DA4075f6fF0eCbAAeb6AE7b5fD4F630C21c9";
-  const chainID = "0x13881";
+  const contractAddress = "0xd92b8d06505D334fD92bbE4b97CE299759D92404";
+  const chainID = "0x89";
   const abi = [
     {
       inputs: [
