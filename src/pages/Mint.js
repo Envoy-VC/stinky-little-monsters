@@ -126,14 +126,14 @@ const Mint = () => {
         <Button
           text="Mint"
           onClick={() => {
-            if (chainId === chainID) {
-              if (account) {
+            if (account) {
+              if (chainId === chainID) {
                 mintNFT(id.id);
               } else {
-                handleNoAccount();
+                switchNetwork(chainID);
               }
             } else {
-              switchNetwork(chainID);
+              handleNoAccount();
             }
           }}
         />
