@@ -116,7 +116,7 @@ const Mint = () => {
         <StyledNFT>
           <NFT
             address={contractAddress}
-            chain="mumbai"
+            chain="polygon"
             fetchMetadata
             tokenId={id.id}
           />
